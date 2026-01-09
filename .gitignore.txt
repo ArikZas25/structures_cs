@@ -1,0 +1,26 @@
+# Visual Studio cache
+.vs/
+*.vsidx
+*.suo
+*.user
+
+# Build outputs
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.pdb
+*.ilk
+*.tlog
+*.log
+
+# Visual Studio browse / sqlite files
+*.sqlite
+Browse.VC.db
+*.opendb
+
+# Extra DB files that sometimes appear
+*.db
+*.db-wal
+*.db-shm
