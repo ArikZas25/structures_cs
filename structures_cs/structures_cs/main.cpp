@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include "HashTable_Chaining.h"
-#include "HashTable_OpenAddressing.h"
+//#include "HashTable_OpenAddressing.h"
 #include <iomanip>
 
 using std::cin;
@@ -48,7 +48,7 @@ int main()
         cout << "Average length:" << endl << fixed << setprecision(4) << table.Average_Length() << endl;
         cout << "Find(100): " << endl << table.Find(100) << endl;
     }
-    else if (tableType == "OpenAddressing") {
+    /* else if (tableType == "OpenAddressing") {
         HashTable_OpenAddressing table;
         table.Init(m);
         cout << "Inserts:" << endl;
@@ -64,6 +64,7 @@ int main()
         cout << "Average length:" << endl << fixed << setprecision(4) << table.Average_Length() << endl;
         cout << "Find(100): " << endl << table.Find(100) << endl;
     }
+    */
     else {
         cout << "wrong input" << endl;
     }
