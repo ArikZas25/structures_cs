@@ -96,7 +96,7 @@ int HashTable_OpenAddressing::Max_Length() const {
 }
 
 double HashTable_OpenAddressing::Average_Length()const {
-	if (successfulInserts == 0) return 0.0;
+	if (successfulInserts == 0) return -1.0;
 	return static_cast<double>(sumInsertAttempts) / successfulInserts;
 }
 

@@ -46,7 +46,8 @@ int main()
         cout << "Size: " << endl << table.size() << endl;
         cout << "Max length: " << endl << table.Max_Length() << endl;
         cout << "Average length:" << endl << fixed << setprecision(4) << table.Average_Length() << endl;
-        cout << "Find(100): " << endl << table.Find(100) << endl;
+        cout << "Find(100): " << endl;
+        cout << table.Find(100) << endl;
     }
      else if (tableType == "OpenAddressing") {
         HashTable_OpenAddressing table;
@@ -59,11 +60,13 @@ int main()
             cout << res << endl;
         }
 
-        cout << "Size: " << endl << table.size() << endl;
-        cout << "Max length: " << endl << table.Max_Length() << endl;
+        cout << "Size:" << endl << table.size() << endl;
+        cout << "Max length:" << endl << table.Max_Length() << endl;
         cout << "Average length:" << endl << fixed << setprecision(4) << table.Average_Length() << endl;
-        cout << "Find(100): " << endl;
-        cout << table.Find(100) << endl;
+
+        cout << "Find(100):" << endl;
+        int tries = table.Find(100);   // Find prints "Not found" or "(key,data)"
+        cout << tries << endl;
     }
     
     else {
