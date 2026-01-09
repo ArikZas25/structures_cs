@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hlyuv\\Documents\\GitHub\\structures_cs\\structures_cs\\",
+  "WorkspaceRootPath": "C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12C4E366-8F71-49BF-AE86-3494A19A585A}|structures_cs\\structures_cs.vcxproj|C:\\Users\\hlyuv\\Documents\\GitHub\\structures_cs\\structures_cs\\structures_cs\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{12C4E366-8F71-49BF-AE86-3494A19A585A}|structures_cs\\structures_cs.vcxproj|C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\structures_cs\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{12C4E366-8F71-49BF-AE86-3494A19A585A}|structures_cs\\structures_cs.vcxproj|solutionrelative:structures_cs\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12C4E366-8F71-49BF-AE86-3494A19A585A}|structures_cs\\structures_cs.vcxproj|C:\\Users\\hlyuv\\Documents\\GitHub\\structures_cs\\structures_cs\\structures_cs\\HashTable_Chaining.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{12C4E366-8F71-49BF-AE86-3494A19A585A}|structures_cs\\structures_cs.vcxproj|C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\structures_cs\\HashTable_Chaining.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12C4E366-8F71-49BF-AE86-3494A19A585A}|structures_cs\\structures_cs.vcxproj|solutionrelative:structures_cs\\HashTable_Chaining.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12C4E366-8F71-49BF-AE86-3494A19A585A}|structures_cs\\structures_cs.vcxproj|C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\structures_cs\\HashTable_Chaining.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{12C4E366-8F71-49BF-AE86-3494A19A585A}|structures_cs\\structures_cs.vcxproj|solutionrelative:structures_cs\\HashTable_Chaining.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12C4E366-8F71-49BF-AE86-3494A19A585A}|structures_cs\\structures_cs.vcxproj|C:\\Users\\hlyuv\\Documents\\GitHub\\structures_cs\\structures_cs\\structures_cs\\HashTable_Chaining.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12C4E366-8F71-49BF-AE86-3494A19A585A}|structures_cs\\structures_cs.vcxproj|solutionrelative:structures_cs\\HashTable_Chaining.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{12C4E366-8F71-49BF-AE86-3494A19A585A}|structures_cs\\structures_cs.vcxproj|C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\structures_cs\\HashTable_OpenAddressing.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12C4E366-8F71-49BF-AE86-3494A19A585A}|structures_cs\\structures_cs.vcxproj|solutionrelative:structures_cs\\HashTable_OpenAddressing.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12C4E366-8F71-49BF-AE86-3494A19A585A}|structures_cs\\structures_cs.vcxproj|C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\structures_cs\\HashTable_OpenAddressing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12C4E366-8F71-49BF-AE86-3494A19A585A}|structures_cs\\structures_cs.vcxproj|solutionrelative:structures_cs\\HashTable_OpenAddressing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +30,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "HashTable_OpenAddressing.cpp",
+              "DocumentMoniker": "C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\structures_cs\\HashTable_OpenAddressing.cpp",
+              "RelativeDocumentMoniker": "structures_cs\\HashTable_OpenAddressing.cpp",
+              "ToolTip": "C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\structures_cs\\HashTable_OpenAddressing.cpp",
+              "RelativeToolTip": "structures_cs\\HashTable_OpenAddressing.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-09T11:09:46.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HashTable_OpenAddressing.h",
+              "DocumentMoniker": "C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\structures_cs\\HashTable_OpenAddressing.h",
+              "RelativeDocumentMoniker": "structures_cs\\HashTable_OpenAddressing.h",
+              "ToolTip": "C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\structures_cs\\HashTable_OpenAddressing.h",
+              "RelativeToolTip": "structures_cs\\HashTable_OpenAddressing.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-09T11:09:36.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HashTable_Chaining.cpp",
-              "DocumentMoniker": "C:\\Users\\hlyuv\\Documents\\GitHub\\structures_cs\\structures_cs\\structures_cs\\HashTable_Chaining.cpp",
+              "DocumentMoniker": "C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\structures_cs\\HashTable_Chaining.cpp",
               "RelativeDocumentMoniker": "structures_cs\\HashTable_Chaining.cpp",
-              "ToolTip": "C:\\Users\\hlyuv\\Documents\\GitHub\\structures_cs\\structures_cs\\structures_cs\\HashTable_Chaining.cpp",
+              "ToolTip": "C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\structures_cs\\HashTable_Chaining.cpp",
               "RelativeToolTip": "structures_cs\\HashTable_Chaining.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-09T09:27:16.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "HashTable_Chaining.h",
-              "DocumentMoniker": "C:\\Users\\hlyuv\\Documents\\GitHub\\structures_cs\\structures_cs\\structures_cs\\HashTable_Chaining.h",
+              "DocumentMoniker": "C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\structures_cs\\HashTable_Chaining.h",
               "RelativeDocumentMoniker": "structures_cs\\HashTable_Chaining.h",
-              "ToolTip": "C:\\Users\\hlyuv\\Documents\\GitHub\\structures_cs\\structures_cs\\structures_cs\\HashTable_Chaining.h",
+              "ToolTip": "C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\structures_cs\\HashTable_Chaining.h",
               "RelativeToolTip": "structures_cs\\HashTable_Chaining.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -58,11 +92,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\hlyuv\\Documents\\GitHub\\structures_cs\\structures_cs\\structures_cs\\main.cpp",
+              "DocumentMoniker": "C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\structures_cs\\main.cpp",
               "RelativeDocumentMoniker": "structures_cs\\main.cpp",
-              "ToolTip": "C:\\Users\\hlyuv\\Documents\\GitHub\\structures_cs\\structures_cs\\structures_cs\\main.cpp",
+              "ToolTip": "C:\\computer science\\year 2\\ds_cs_project\\structures_cs\\structures_cs\\structures_cs\\main.cpp",
               "RelativeToolTip": "structures_cs\\main.cpp",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwCQAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-09T09:14:43.605Z",
               "EditorCaption": ""
