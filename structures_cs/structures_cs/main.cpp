@@ -13,10 +13,6 @@ using std::to_string;
 using std::fixed;
 using std::setprecision;//to set the precision of the average length output
 
-int seed = 600012;
-std::mt19937 rng(seed);
-int n = 3000;
-
 int main()
 {
     string tableType;
@@ -43,11 +39,14 @@ int main()
             int res = table.Insert(num, data);
             cout << res << endl;
         }
-        cout << "Size: " << endl << table.size() << endl;
-        cout << "Max length: " << endl << table.Max_Length() << endl;
+
+        cout << "Size:" << endl << table.size() << endl;
+        cout << "Max length:" << endl << table.Max_Length() << endl;
         cout << "Average length:" << endl << fixed << setprecision(4) << table.Average_Length() << endl;
-        cout << "Find(100): " << endl;
-        cout << table.Find(100) << endl;
+        cout << "Find(100):" << endl;
+        int tries = table.Find(100);   // Find prints "Not found" or "(key,data)"
+        cout << tries << endl;
+
     }
      else if (tableType == "OpenAddressing") {
         HashTable_OpenAddressing table;
@@ -63,7 +62,6 @@ int main()
         cout << "Size:" << endl << table.size() << endl;
         cout << "Max length:" << endl << table.Max_Length() << endl;
         cout << "Average length:" << endl << fixed << setprecision(4) << table.Average_Length() << endl;
-
         cout << "Find(100):" << endl;
         int tries = table.Find(100);   // Find prints "Not found" or "(key,data)"
         cout << tries << endl;

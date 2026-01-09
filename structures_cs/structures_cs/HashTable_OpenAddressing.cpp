@@ -31,7 +31,7 @@ void HashTable_OpenAddressing::Init(int m) {
 
 int HashTable_OpenAddressing::Insert(int key, const std::string& data) {
 	if (m <= 0) return -1;
-	if (key <= 0) return -1;
+	if (key < 0) return -1;
 
 	for (int i = 0; i < m; i++) {
 		int index = h(key, i);
@@ -66,7 +66,7 @@ int HashTable_OpenAddressing::Find(int key) const {
 		std::cout << "Not found" << std::endl;
 		return 0;
 	}
-	if (key <= 0) {
+	if (key < 0) {
 		std::cout << "Not found" << std::endl;
 		return 0;
 	}
@@ -79,7 +79,7 @@ int HashTable_OpenAddressing::Find(int key) const {
 			return attempts;
 		}
 		if (table[index].key == key) {
-			std::cout << "(" << table[index].key << "," << table[index].data << ")" << std::endl;
+			std::cout << "(" << table[index].key << ", " << table[index].data << ")" << std::endl;
 			return attempts;
 		}
 	}

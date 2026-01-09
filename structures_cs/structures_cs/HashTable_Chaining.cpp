@@ -34,7 +34,7 @@ int HashTable_Chaining::Find(int key) {
 		}
 	}
 	if (!found) {
-		std::cout << "Not found";
+		std::cout << "Not found" << std::endl;
 	}
 
 
